@@ -32,11 +32,29 @@ nav a:hover {
 .div_about:hover{
     box-shadow: 0 0 5px white;
 }
-article {
-    margin-top: 20px;
-}
 
 .about {
+    font-family: Arial, sans-serif;
+    font-size: large;
+    padding: 10px;
+}
+
+.div_pub_choose{
+    border-radius: 10px;
+    background: #f1f1f1;
+    width: 1000px;
+    margin: 10px auto;
+    position: relative;
+    overflow:hidden;
+    transition: transform 1s 50ms;
+}
+
+.div_pub_choose:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 5px white;
+}
+
+.pub{
     font-family: Arial, sans-serif;
     font-size: large;
     padding: 10px;
