@@ -1,6 +1,5 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0px;
 }
 header, footer {
     background-color: #f1f1f1;
@@ -28,6 +27,11 @@ nav a:hover {
     position: relative;
     overflow:hidden;
     transition: transform 1s 50ms;
+}
+
+.div_about:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 5px white;
 }
 article {
     margin-top: 20px;
