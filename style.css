@@ -21,12 +21,11 @@ nav a:hover {
 }
 .div_about {
     border-radius: 10px;
-    background-color: lightgrey;
     width: 1000px;
     margin: 10px auto;
     position: relative;
     overflow:hidden;
-    padding: 10px;
+
 }
 
 .div_about:hover{
@@ -39,6 +38,5 @@ article {
 .about {
     font-family: Arial, sans-serif;
     font-size: large;
-    margin-left: 10px;
-    margin-right: 10px;
+    padding: 10px;
 }
