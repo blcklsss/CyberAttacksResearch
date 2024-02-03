@@ -21,6 +21,7 @@ nav a:hover {
 }
 .div_about {
     border-radius: 10px;
+    background-color: lightgray;
     width: 1000px;
     margin: 10px auto;
     position: relative;
