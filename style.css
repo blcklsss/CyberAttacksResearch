@@ -19,9 +19,14 @@ nav a:hover {
     background-color: #ddd;
     color: black;
 }
-.container {
-    width: 80%;
-    margin: 0 auto;
+.div_about {
+    border-radius: 10px;
+    background-color: darkgrey;
+    width: 1000px;
+    margin: 10px auto;
+    position: relative;
+    overflow:hidden;
+    transition: transform 1s 50ms;
 }
 article {
     margin-top: 20px;
