@@ -94,12 +94,14 @@ nav a:hover {
 }
 
 .div_pub {
-    background-color: #f8f9fa; /* Светло-серый цвет фона для контраста */
-    border: 1px solid #dee2e6; /* Серая рамка */
-    border-radius: 5px; /* Скругление углов рамки */
-    padding: 20px; /* Отступы внутри блока */
-    margin-bottom: 20px; /* Отступ снизу для разделения статей */
-    font-family: Arial, sans-serif; /* Шрифт */
-    color: #212529; /* Цвет текста */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Тень для добавления глубины */
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+    color: #212529;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-right: 10px;
+    margin-left: 10px;
 }
