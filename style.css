@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
 }
+
 html, body {
     margin: 0;
     padding: 0;
@@ -12,11 +13,12 @@ body {
     min-height: 100vh;
     font-family: Arial, sans-serif;
 }
+
 body main {
     margin-bottom: auto;
 }
 
-header{
+header {
     padding: 10px 0 0;
     margin-bottom: 10px;
 }
@@ -26,34 +28,41 @@ header, footer {
     text-align: center;
 }
 
-footer{
+footer {
     flex: 0 0 auto;
+}
+
+main {
+    flex: 1;
 }
 
 nav {
     background-color: #333;
     padding: 10px;
 }
+
 nav a {
     color: white;
     text-decoration: none;
     padding: 10px;
 }
+
 nav a:hover {
     background-color: #ddd;
     color: black;
 }
+
 .div_about {
     border-radius: 10px;
     background: #f1f1f1;
     width: 1000px;
     margin: 10px auto;
     position: relative;
-    overflow:hidden;
+    overflow: hidden;
 
 }
 
-.div_about:hover{
+.div_about:hover {
     box-shadow: 0 0 5px white;
 }
 
@@ -63,28 +72,28 @@ nav a:hover {
     padding: 10px;
 }
 
-.div_pub_choose{
+.div_pub_choose {
     border-radius: 10px;
     background: #f1f1f1;
     width: 1000px;
     margin: 10px auto;
     position: relative;
-    overflow:hidden;
+    overflow: hidden;
     transition: transform 1s 50ms;
 }
 
-.div_pub_choose:hover{
+.div_pub_choose:hover {
     transform: scale(1.1);
     box-shadow: 0 0 5px white;
 }
 
-.pub{
+.pub {
     font-family: Arial, sans-serif;
     font-size: large;
     padding: 10px;
 }
 
-.div_pub{
+.div_pub {
     background-color: #f8f9fa; /* Светло-серый цвет фона для контраста */
     border: 1px solid #dee2e6; /* Серая рамка */
     border-radius: 5px; /* Скругление углов рамки */
