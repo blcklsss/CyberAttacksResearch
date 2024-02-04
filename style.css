@@ -6,6 +6,11 @@ header, footer {
     padding: 10px;
     text-align: center;
 }
+
+footer{
+    flex: 0 0 auto;
+}
+
 nav {
     background-color: #333;
     padding: 10px;
