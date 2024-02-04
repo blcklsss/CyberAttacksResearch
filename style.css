@@ -59,11 +59,7 @@ nav a:hover {
     margin: 10px auto;
     position: relative;
     overflow: hidden;
-
-}
-
-.div_about:hover {
-    box-shadow: 0 0 5px white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .about {
