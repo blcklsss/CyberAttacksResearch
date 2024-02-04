@@ -15,9 +15,14 @@ body {
 body main {
     margin-bottom: auto;
 }
+
+header{
+    padding: 10px 0 0;
+    margin-bottom: 10px;
+}
+
 header, footer {
     background-color: #f1f1f1;
-    padding: 10px;
     text-align: center;
 }
 
